@@ -7,3 +7,5 @@ function harmonic(){
     }
     console.log(sum);
 }
+
+harmonic();

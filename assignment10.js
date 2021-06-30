@@ -1,18 +1,3 @@
-function table(){
-    const n = process.argv.slice(2);
-    for(var i=0;i<=Number(n);i++){
-        console.log(Math.pow(2,i));
-    }   
-}
-
-function harmonic(){
-    const n = process.argv.slice(2);
-    var sum = 0;
-    for(var i=1;i<=n;i++){
-        sum = sum + (1/i);
-    }
-    console.log(sum);
-}
 
 function checkPrime(isPrime){
     //const isPrime = process.argv.slice(2);
